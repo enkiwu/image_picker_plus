@@ -348,7 +348,7 @@ class _ImagesViewPageState extends State<ImagesViewPage>
       valueListenable: indexOfSelectedImages,
       builder: (context, List<int> indexOfSelectedImagesValue, child) =>
           IconButton(
-        icon: const Icon(Icons.arrow_forward_rounded,
+        icon: const Icon(Icons.done,
             color: Colors.blue, size: 30),
         onPressed: () async {
           double aspect = expandImage.value ? 6 / 8 : 1.0;
