@@ -262,7 +262,7 @@ class CustomCameraDisplayState extends State<CustomCameraDisplay> {
           duration: const Duration(seconds: 1),
           switchInCurve: Curves.easeIn,
           child: IconButton(
-            icon: const Icon(Icons.arrow_forward_rounded,
+            icon: const Icon(Icons.done,
                 color: Colors.blue, size: 30),
             onPressed: () async {
               if (videoRecordFile != null) {
